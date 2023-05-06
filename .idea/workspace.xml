@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95bec1f2-061e-47a7-ba1b-3c47db440840" name="Changes" comment="1 selenium">
-      <change afterPath="$PROJECT_DIR$/src/test/java/GoogleTest.java" afterDir="false" />
+    <list default="true" id="95bec1f2-061e-47a7-ba1b-3c47db440840" name="Changes" comment="2 selenium">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SauceDemoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoogleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +45,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/gerda/Downloads/intellij-pets-0.1.1.zip",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "dev.gabrielchl.intellijpets.settings.AppSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SauceDemoTest.userCanLoginWithCorrectUserAndPass">
+    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestSauceDemoSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstTest.myFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestSauceDemoSelenium" />
       <option name="PACKAGE_NAME" value="" />
@@ -58,9 +68,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GoogleTest.canOpenGooglePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestSauceDemoSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GoogleTest" />
+      <option name="METHOD_NAME" value="canOpenGooglePage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SauceDemoTest.canOpenWebpage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestSauceDemoSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SauceDemoTest" />
+      <option name="METHOD_NAME" value="canOpenWebpage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SauceDemoTest.userCanLoginWithCorrectUserAndPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestSauceDemoSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SauceDemoTest" />
+      <option name="METHOD_NAME" value="userCanLoginWithCorrectUserAndPass" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SauceDemoTest.userCanLoginWithCorrectUserAndPass" />
+        <item itemvalue="JUnit.SauceDemoTest.canOpenWebpage" />
+        <item itemvalue="JUnit.GoogleTest.canOpenGooglePage" />
         <item itemvalue="JUnit.FirstTest.myFirstTest" />
+        <item itemvalue="JUnit.FirstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -80,11 +124,19 @@
       <option name="project" value="LOCAL" />
       <updated>1683369908250</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2 selenium">
+      <created>1683370234414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683370234414</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1 selenium" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 selenium" />
+    <MESSAGE value="2 selenium" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 selenium" />
   </component>
 </project>
